@@ -1,4 +1,4 @@
-**Project assumptions. Diploma theses - project context
+#Project assumptions. Diploma theses - project context
 
 At some university (if not all), a student must complete a certain stage of education complete and defend a final thesis called a diploma thesis. The diploma thesis is carried out at the end of each stage of studies. So graduate theses are written by students of studies undergraduate, engineering and graduate. In the future, the university plans to expand its offer for new types of studies, which will also end with a diploma thesis. Each student, in addition to the first and last name, has a unique identifier at the university in the form of an index number. The index number is a sequence of 10 characters and uniquely identifies a student studying at the university.
  
@@ -25,3 +25,5 @@ requirements:
 • reviewed by university staff
 • defended on a given day, month, year
 • defended in a given type of studies
+
+To build databse run `dotnet ef -s ..\DB_System.UI database update`
